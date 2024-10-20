@@ -8,7 +8,7 @@ Frontend interface for creating and evaluating rules.
 Simple REST API to create and evaluate rules.
 Custom error handling for invalid inputs.
 # project-root/
-├── app.py                  # Flask app to handle API and frontend routes
+`` ├── app.py                  # Flask app to handle API and frontend routes
 ├── rule_engine.py          # Core rule engine logic with AST representation
 ├── test_rule_engine.py     # Unit tests for rule engine
 ├── static/
@@ -16,3 +16,4 @@ Custom error handling for invalid inputs.
 │   └── script.js           # Frontend JavaScript for API calls
 └── templates/
     └── index.html          # Frontend HTML template
+ ``   
