@@ -2,13 +2,19 @@
 URL: http://127.0.0.1:5000/
 # Overview
 This project is a simple 3-tier rule engine application that determines user eligibility based on specific rules. The rules are represented using an Abstract Syntax Tree (AST) that allows dynamic creation, combination, and modification of rules. The application features a backend built with Flask, a frontend using HTML, CSS, and JavaScript, and a simple rule evaluation engine.
+
 ![1](https://github.com/user-attachments/assets/0040aebb-205c-44db-8221-6e037bad926c)
 
 ## Features
 
 - **Create Rules**: Allows users to create rules in a user-friendly interface.
+- 
+  ![3](https://github.com/user-attachments/assets/c27927d2-8110-4392-ae02-bf2d38912448)
   
 - **Evaluate Rules**: Evaluate user data against created rules to determine eligibility.
+  
+![4](https://github.com/user-attachments/assets/389c8855-e827-4f1d-89ea-327150573d7c)
+
 - **Abstract Syntax Tree**: Utilizes an AST to represent rules and perform evaluations efficiently.
 - **Frontend**: A simple and interactive web interface built using HTML, CSS, and JavaScript.
 - **API Integration**: RESTful API endpoints for creating and evaluating rules.
