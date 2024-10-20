@@ -7,7 +7,7 @@ Evaluate rules against user data.
 Frontend interface for creating and evaluating rules.
 Simple REST API to create and evaluate rules.
 Custom error handling for invalid inputs.
-project-root/
+# project-root/
 ├── app.py                  # Flask app to handle API and frontend routes
 ├── rule_engine.py          # Core rule engine logic with AST representation
 ├── test_rule_engine.py     # Unit tests for rule engine
